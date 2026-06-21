@@ -1,4 +1,4 @@
-
+import './AboutPage.css'
 function About() { 
 
     return( 
