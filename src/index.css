@@ -149,7 +149,7 @@ a {
 
 }
 
-.img-container img { 
+.home-background img { 
   position: absolute;
   top:200px;
   width:100%;
@@ -200,6 +200,7 @@ a {
   border:10px solid var(--neutral-0);
   border-radius:12px;
   margin-bottom:96px;
+  
 }
 
 .explore-btn { 
