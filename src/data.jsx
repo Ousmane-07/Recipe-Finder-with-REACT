@@ -11,6 +11,7 @@ export const data = [
     {
         id: 1,
         name: "Mediterranean Chickpea Salad",
+        description:"Mediterranean Chickpea Salad",
         image: mediterranean, 
         prepTime: 10,
         cookTime: 0
@@ -18,6 +19,7 @@ export const data = [
         {
         id: 2,
         name: "Avocado & Tomato Wholegrain Toast",
+        description: "Avocado & Tomato Wholegrain Toast",
         image: avocadotoast, 
         prepTime: 5,
         cookTime: 5
@@ -25,6 +27,7 @@ export const data = [
         {
         id: 3,
         name: "One Pan Lemon Garlic Salmon with Asparagus",
+        description:"A 15-minute weeknight dinner of flaky salmon and tender asparagus.",
         image: salmon, 
         prepTime: 5,
         cookTime: 12
@@ -32,6 +35,7 @@ export const data = [
         {
         id: 4,
         name: "Quinoa Veggie Power Bowl",
+        description:"A balanced bowl of fluffy quinoa, roasted veggies and healthy fats.",
         image: quinoa, 
         prepTime: 10,
         cookTime: 15
@@ -39,6 +43,7 @@ export const data = [
         {
         id: 5,
         name: "Sweet Potato Black Bean Tacos",
+        description:"Smoky roasted sweet potatoes and black beans tucked into warm tortillas.",
         image: sweetpotato, 
         prepTime: 10,
         cookTime: 15
@@ -46,6 +51,7 @@ export const data = [
         {
         id: 6,
         name: "Greek Yogurt Berry Parfait",
+        description:"Layers of creamy yogurt, fresh berries and crunchy oats for a high-protein snack.",
         image: greekyogurt, 
         prepTime: 5,
         cookTime: 0
@@ -53,6 +59,7 @@ export const data = [
         {
         id: 7,
         name: "Lentil & Spinach Soup",
+        description:"A hearty 30-minute soup rich in plant protein and iron.",
         image: lentil, 
         prepTime: 10,
         cookTime: 20
@@ -60,6 +67,7 @@ export const data = [
         {
         id: 8,
         name: "Banana Oat Pancakes",
+        description:"Flour-free pancakes sweetened naturally with ripe bananas.",
         image: bananapancakes, 
         prepTime: 5,
         cookTime: 10
