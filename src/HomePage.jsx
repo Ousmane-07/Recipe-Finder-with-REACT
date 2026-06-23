@@ -16,7 +16,7 @@ function Home() {
     return( 
         <>
         <div className="home-container">
-            <div className="img-container">
+            <div className="home-background">
             <img src={squiggly_line} alt="" />
             </div>
             <div className="home-content">
