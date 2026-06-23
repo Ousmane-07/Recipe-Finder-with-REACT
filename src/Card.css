@@ -86,6 +86,7 @@
     background:var(--neutral-0);
     padding:10px 10px;
     border:1px solid var(--neutral-300);
+    border-radius:8px;
     
     
     
@@ -96,4 +97,56 @@
     display:block;
     height:auto;
     width:100%;
+    border-radius:8px;
+    margin-bottom:20px;
+}
+
+.card h1 { 
+    font-size:var(--fs-20);
+    font-weight:600;
+    color:var(--neutral-900);
+    margin-bottom:20px;
+}
+
+.card p { 
+    font-size:var(--fs-14);
+    color:var(--neutral-900);
+}
+
+.serving-and-prep-and-cook-container { 
+    display:flex;
+    flex-direction:column;
+}
+
+.serving-and-prep-container { 
+    display:flex;
+    gap:15px;
+    color:var(--neutral-900);
+}
+
+.serving-container { 
+    display:flex;
+    align-items:center;
+}
+
+.prep-container { 
+    display:flex;
+    align-items:center;
+}
+
+
+
+.recipe-description { 
+    margin-bottom:20px;
+}
+
+.cook { 
+    height:20px;
+    width:20px;
+}
+
+.cook-container { 
+    display:flex;
+    align-items:center;
+    
 }
