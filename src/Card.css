@@ -1,0 +1,99 @@
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/nunito-v32-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/fonts/nunito-v32-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/fonts/nunito-v32-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/nunito-v32-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/assets/fonts/nunito-v32-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+:root {
+  /* Neutral */
+
+  --neutral-900:#163A34;
+  --neutral-600:#395852;
+  --neutral-300:#D0DCD9;
+  --neutral-200:#E0E6E3;
+  --neutral-100:#F6F5F1;
+  --neutral-0:#FFFFFF;
+
+  /* Orange */
+
+  --orange-500: #FE9F6B;
+  
+  /* Teal */
+
+  --teal-500:#49AC9B;
+
+  /* Indigo */ 
+
+  --indigo-500: #697DDB;
+
+
+  /* FONT SIZES */ 
+
+  --fs-72: calc(72 / 16 * 1rem);
+  --fs-64: calc(64 / 16 * 1rem);
+  --fs-52: calc(52 / 16 * 1rem);
+  --fs-48: calc(48 / 16 * 1rem);
+  --fs-40: calc(40 / 16 * 1rem);
+  --fs-32: calc(32 / 16 * 1rem);
+  --fs-24: calc(24 / 16 * 1rem);
+  --fs-20: calc(20 / 16 * 1rem);
+  --fs-18: calc(18 / 16 * 1rem);
+  --fs-16: calc(16 / 16 * 1rem);
+  --fs-14: calc(14 / 16 * 1rem);
+
+
+
+
+
+}
+
+.card { 
+    background:var(--neutral-0);
+    padding:10px 10px;
+    border:1px solid var(--neutral-300);
+    
+    
+    
+}
+
+.card .img-container img { 
+    
+    display:block;
+    height:auto;
+    width:100%;
+}
