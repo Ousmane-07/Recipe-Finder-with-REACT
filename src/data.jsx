@@ -11,16 +11,18 @@ export const data = [
     {
         id: 1,
         name: "Mediterranean Chickpea Salad",
-        description:"Mediterranean Chickpea Salad",
+        description:"A refreshing, protein-packed salad tossed in a lemon-olive oil dressing.",
         image: mediterranean, 
+        servings: 2,
         prepTime: 10,
         cookTime: 0
     },
         {
         id: 2,
         name: "Avocado & Tomato Wholegrain Toast",
-        description: "Avocado & Tomato Wholegrain Toast",
+        description: "Creamy avocado spread over toasted wholegrain bread, topped with juicy tomatoes.",
         image: avocadotoast, 
+        servings: 1,
         prepTime: 5,
         cookTime: 5
     },
@@ -29,6 +31,7 @@ export const data = [
         name: "One Pan Lemon Garlic Salmon with Asparagus",
         description:"A 15-minute weeknight dinner of flaky salmon and tender asparagus.",
         image: salmon, 
+        servings: 2,
         prepTime: 5,
         cookTime: 12
     },
@@ -37,6 +40,7 @@ export const data = [
         name: "Quinoa Veggie Power Bowl",
         description:"A balanced bowl of fluffy quinoa, roasted veggies and healthy fats.",
         image: quinoa, 
+        servings: 2,
         prepTime: 10,
         cookTime: 15
     },
@@ -45,6 +49,7 @@ export const data = [
         name: "Sweet Potato Black Bean Tacos",
         description:"Smoky roasted sweet potatoes and black beans tucked into warm tortillas.",
         image: sweetpotato, 
+        servings: 3,
         prepTime: 10,
         cookTime: 15
     },
@@ -53,6 +58,7 @@ export const data = [
         name: "Greek Yogurt Berry Parfait",
         description:"Layers of creamy yogurt, fresh berries and crunchy oats for a high-protein snack.",
         image: greekyogurt, 
+        servings: 1,
         prepTime: 5,
         cookTime: 0
     },
@@ -60,7 +66,8 @@ export const data = [
         id: 7,
         name: "Lentil & Spinach Soup",
         description:"A hearty 30-minute soup rich in plant protein and iron.",
-        image: lentil, 
+        image: lentil,
+        servings:4, 
         prepTime: 10,
         cookTime: 20
     },
@@ -69,6 +76,7 @@ export const data = [
         name: "Banana Oat Pancakes",
         description:"Flour-free pancakes sweetened naturally with ripe bananas.",
         image: bananapancakes, 
+        servings:2,
         prepTime: 5,
         cookTime: 10
     }
